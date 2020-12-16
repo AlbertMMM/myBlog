@@ -1,11 +1,14 @@
 .node_modules
 .vscode
-idea/**/workspace.xml
+.idea
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
+.DS_Store
 # Generated files
 .idea/**/contentModel.xml
+<<<<<<< HEAD
 .DS_Store
+=======
+>>>>>>> c1a9acd452cec01afe2ea54476fb0f8330e53b45
