@@ -1,4 +1,4 @@
-  baseurl = "albertbling.com/blog"
+  baseurl = "blog.albertbling.com"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
