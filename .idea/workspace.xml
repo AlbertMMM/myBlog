@@ -33,8 +33,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e62a1d09-8535-49e6-a4a5-b8e3d014b09e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/terminal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/terminal/images/ethimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/terminal/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/terminal/static/img/favicon/ethimage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/terminal/exampleSite/config.toml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/terminal/exampleSite/content/about.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/terminal/exampleSite/content/post/hello.md" beforeDir="false" />
@@ -47,7 +50,7 @@
       <change beforePath="$PROJECT_DIR$/themes/terminal/static/assets/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/terminal/static/assets/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/terminal/static/assets/prism.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/terminal/static/assets/prism.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/terminal/static/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/terminal/static/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/terminal/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/terminal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/themes/terminal/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +123,10 @@
       <screen x="1680" y="-402" width="2560" height="1417" />
     </state>
     <state x="2266" y="-77" width="1480" height="753" key="VCS.FileHistoryDialog/0.23.1680.953/1680.-402.2560.1417@1680.-402.2560.1417" timestamp="1607931543245" />
+    <state x="2795" y="-97" key="Vcs.Push.Dialog.v2" timestamp="1608080334496">
+      <screen x="1680" y="-402" width="2560" height="1417" />
+    </state>
+    <state x="2795" y="-97" key="Vcs.Push.Dialog.v2/0.23.1680.953/1680.-402.2560.1417@1680.-402.2560.1417" timestamp="1608080334496" />
     <state x="2648" y="-118" key="editAsTableFormatDialogDimension" timestamp="1608070508254">
       <screen x="1680" y="-402" width="2560" height="1417" />
     </state>

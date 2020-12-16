@@ -1,6 +1,6 @@
   baseurl = "albertbling.com/blog"
 languageCode = "en-us"
-theme = "hugo-theme-terminal"
+theme = "terminal"
 paginate = 5
 
 
