@@ -3,13 +3,16 @@ title: "How to mine Ethereum on Ubuntu  20.04. LTS"
 date: "2020-11-20"
 draft: false
 author: "Albert"
+cover: "/img/mining.png"
+description: "A working installation of Ubuntu 20.04 LTS is required. An Advanced user can install the server version while a neophyte can install the desktop version. The installation process for the Ubuntu Server Edition is slightly different from the Desktop Edition"
+
 ---
 
 
 
 # Prerequisites
 
-A working installation of [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) is required. An Advanced user can install the server version  while a neophyte can install the desktop version. The installation process for the Ubuntu Server Edition is slightly different from the Desktop Edition;  Ubuntu Server doesn't have a GUI by default. The guide assumes you have root privileges to the system.
+A working installation of [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) is required. An Advanced user can install the server version  while a neophyte can install the desktop version. The installation process for  Ubuntu Server Edition is slightly different from the Desktop Edition;  Ubuntu Server doesn't have a GUI by default. The guide assumes you have root privileges to the system.
 This guide also assumes you already have the necessary hardware to mine Ethereum using the  ETHASH algorithm. 
 
 ### disclaimer 
@@ -120,7 +123,7 @@ Export PATH="/opt/amdgpu-pro/bin:$PATH"
  - <kbd>U</kbd> Remounts the mounted filesystem in read-only mode
 - <kbd>B</kbd> Reboot the system, or <kbd>O</kbd> Turn off the system
 
-You could just <kbd>Alt</kbd>+<kbd>SysRq</kbd>+<kbd>B/O</kbd> to reboot/halt if you really desirable  but you put your filesystem at risk by doing so. Doing all of the above is relatively safe and should work even when the rest of the system has broken down.
+>The SysRq key is a key combination understood by the Linux kernel, which allows the user to perform various low-level commands regardless of the system's state. It is often used to recover from freezes, or to reboot a computer without corrupting the filesystem. Its effect is similar to the computer's hardware reset button (or power switch) but with many more options and much more control. 
 
 ~~~sh
 
@@ -128,10 +131,12 @@ You could just <kbd>Alt</kbd>+<kbd>SysRq</kbd>+<kbd>B/O</kbd> to reboot/halt if 
     for i in s u o; do echo $i | sudo tee /proc/sysrq-trigger; sleep 5; done  # halt
 ~~~
 
-Data loss is possible from running applications but it shouldn't knacker your filesystem. If you a have particularly huge disk write caches it might be best to increase the `sleep` value.
+Data loss is possible from running applications but it shouldn't knacker your filesystem. If you a have particularly huge disk write cache it might be best to increase the `sleep` value.
 
 
 ## Install and run your favorite miner
+
+At this point, you can run your preferred Ethash GPU mining worker.
 
 ## Install ROCm System Management Interface
 
@@ -154,3 +159,16 @@ wget https://github.com/RadeonOpenCompute/ROC-smi/archive/rocm-3.9.0.tar.gz
 | --setpoweroverdrive WATTS          |  Set the maximum GPU power using Power OverDrive in Watts
 
 Read more about the tool on github [here](https://github.com/RadeonOpenCompute/ROC-smi)
+
+
+
+
+```html
+
+BTC: 1EqpVbnmVLczTe6TVzis5LuJfrm2AATjNB 
+ETH: 0x0ee9cfbbcbdcf11f9248084da8faf7eeeb4580b8
+```
+
+
+
+    

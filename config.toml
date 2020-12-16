@@ -1,4 +1,4 @@
-  baseurl = "blog.albertbling.com"
+  baseurl = "https://blog.albertbling.com"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -25,6 +25,8 @@ paginate = 5
     subtitle = "A blog about technology"
     keywords = ""
     copyright = "© 2020 :: Albert Bling" 
+  header = "BTC: 1EqpVbnmVLczTe6TVzis5LuJfrm2AATjNB"
+
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
