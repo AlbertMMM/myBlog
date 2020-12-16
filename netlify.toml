@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo  --minify"
+command = "hugo  --minify && cd themes/terminal && npm install && npm i yarn && yarn && yarn build"
 
 [context.production.environment]
 HUGO_VERSION = "0.79.0"
