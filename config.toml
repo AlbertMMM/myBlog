@@ -4,6 +4,7 @@ theme = "terminal"
 paginate = 5
 enableRobotsTXT = true
 
+googleAnalytics = "UA-141354888-1"
 
 
 
