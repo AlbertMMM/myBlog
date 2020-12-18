@@ -77,8 +77,8 @@ The parameters ``` --opencl=pal,legacy,rocm```  specify the OpenCl implementatio
 | Option       | Description  |
 | :-------| :----------: | 
 |```Pal``` | Provides support for Vega 10 and newer hardware.| 
-|```Legacy```| Provides support for hardware older than Vega 10| 
-|```rocm```|Optional component| 
+|```Legacy```| Provides support for hardware older than Vega 10.| 
+|```rocm```|Optional component.| 
 
 
 The parameter ```--headless```  specifies to install only the OpenCL portion of the Pro variant (omitting the OpenGL portion). This  is desirable because the GPU's will be operating in headless compute mode.
