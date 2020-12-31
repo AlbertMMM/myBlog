@@ -66,7 +66,7 @@ wget https://drivers.amd.com/drivers/linux/amdgpu-pro-20.40-1147286-ubuntu-20.04
 {{< /code >}}
 
 {{< code language="sh" title="```Change Directory to driver folder```" id="" collapse="" isCollapsed="false" >}}
-cd amdgpu-pro-20.40-1147286-ubuntu-20.04.tar.xz
+cd amdgpu-pro-20.40-1147286-ubuntu-20.04
 {{< /code >}}
 
 {{< code language="sh" title="```install  Pro drivers```" id="" collapse="" isCollapsed="false" >}}
